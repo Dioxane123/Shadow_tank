@@ -1,1 +1,1 @@
-homework of Python program designing lesson in HDU
+source code of Python program designing lesson in HDU
