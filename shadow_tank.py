@@ -2,6 +2,13 @@ import tkinter as tk
 from tkinter import filedialog
 import ttkbootstrap
 import cv2
+import os
+
+try:
+    os.mkdir("tmp")
+    print("Successfully Created Direction 'tmp'!")
+except FileExistsError:
+    print("Successfully Created Direction 'tmp'!")
 
 style = ttkbootstrap.Style(theme="darkly")    #利用ttkbootstrap快捷部署gui主题
 win = style.master
